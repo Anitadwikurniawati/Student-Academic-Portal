@@ -1,0 +1,131 @@
+{
+  "id": "4e8e2b07-424a-4f59-9771-8e95e98aaeb3",
+  "version": "2.0",
+  "name": "record",
+  "url": "https://ominous-carnival-r4r7rjw66v9jcwx59-5000.app.github.dev",
+  "tests": [{
+    "id": "c7776b81-3859-42ab-ad71-4b88eb399694",
+    "name": "record",
+    "commands": [{
+      "id": "2271c092-fba5-45de-8950-0ecae6c42194",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9e6b6ce-b27d-4e44-87f6-18797f4159e7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a389957b-6e6b-4540-9b2a-e5aae97daa8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9aaef35-8cd7-4401-8803-f3c52d58b894",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputEmail3",
+      "targets": [
+        ["id=inputEmail3", "id"],
+        ["name=UserName", "name"],
+        ["css=#inputEmail3", "css:finder"],
+        ["xpath=//input[@id='inputEmail3']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "914e4d85-9eae-4005-bc29-508ce952ac4a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail3",
+      "targets": [
+        ["id=inputEmail3", "id"],
+        ["name=UserName", "name"],
+        ["css=#inputEmail3", "css:finder"],
+        ["xpath=//input[@id='inputEmail3']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anitadwikurniawati"
+    }, {
+      "id": "45507c05-3337-445e-92a8-b39daadd3550",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputPassword3",
+      "targets": [
+        ["id=inputPassword3", "id"],
+        ["name=Password", "name"],
+        ["css=#inputPassword3", "css:finder"],
+        ["xpath=//input[@id='inputPassword3']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed1f2127-c6c5-4b5c-ae64-d4bb4c9d6c75",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword3",
+      "targets": [
+        ["id=inputPassword3", "id"],
+        ["name=Password", "name"],
+        ["css=#inputPassword3", "css:finder"],
+        ["xpath=//input[@id='inputPassword3']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "radenmas1302!"
+    }, {
+      "id": "17884403-6e4f-425f-915c-44cadfce9083",
+      "comment": "",
+      "command": "click",
+      "target": "id=Student",
+      "targets": [
+        ["id=Student", "id"],
+        ["css=#Student", "css:finder"],
+        ["xpath=//input[@id='Student']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3322458d-2cd4-4f8f-ab75-44cab5641934",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc62e69-4e6c-47a3-8b23-67d63568e5cb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9f6c1847-998f-4a69-8cbd-d53ad044fba2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c7776b81-3859-42ab-ad71-4b88eb399694"]
+  }],
+  "urls": ["https://ominous-carnival-r4r7rjw66v9jcwx59-5000.app.github.dev/"],
+  "plugins": []
+}
