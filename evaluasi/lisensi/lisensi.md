@@ -1,0 +1,1 @@
+Proyek asli menggunakan lisensi MIT yang bersifat permisif dan memperbolehkan modifikasi serta distribusi ulang, asalkan tetap mencantumkan atribusi kepada penulis asli. Dengan demikian, pengubahan atau penambahan fitur yang dilakukan dalam proyek ini sepenuhnya kompatibel dengan lisensi MIT dan tetap mematuhi ketentuan etika open source.
